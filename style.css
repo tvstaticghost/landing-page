@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    background: #1f2937;
+}
+
+.logo ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.logo li {
+    font-size: 18px;
+}
+
+.logo p {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.logo a {
+    color: #f9faf8af;
+    text-decoration: none;
+}
+
+.logo a:hover {
+    color: #f9faf8af;
+    text-decoration: underline;
+}
+
+.two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    background: #1f2937;
+}
+
+.two h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.two p {
+    color: #f9faf8af;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.awesome {
+    flex-basis: 33%;
+    height: 270px;
+    padding-right: 40px;
+}
+
+.two button {
+    background: dodgerblue;
+    color: white;
+    height: 35px;
+    width: 120px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* main body */
+
+.boxes {
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.random {
+    font-size: 24px;
+    font-weight: 800;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.random h2 {
+    font-weight: 900;
+}
+
+.box1, .box2, .box3, .box4 {
+    border: 4px solid dodgerblue;
+    width: 150px;
+    border-radius: 15px;
+}
+
+.box-rows {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    gap: 50px;
+}
+
+.box-text {
+    display: flex;
+    gap: 50px;
+}
+
+.box-text p {
+    width: 150px;
+    text-align: center;
+    padding-top: 10px;
+    color: rgba(0, 0, 0, 0.635);
+    font-size: 18px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background: #e5e7eb;
+}
+
+.words {
+    font-size: 36px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.756);
+    width: 58%;
+}
+
+.thor {
+    font-size: 24px;
+    padding-left: 600px;
+    font-weight: 900;
+}
+
+.signup {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup .bluebox {
+    background: dodgerblue;
+    border-radius: 15px;
+    height: 150px;
+    width: 72%;
+}
+
+.bluebox {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f9faf8;
+}
+
+.call {
+    font-size: 24px;
+}
+
+.product {
+    font-size: 18px;
+    color: #f9faf898;
+}
+
+.fun button {
+    width: 120px;
+    height: 50px;
+    border: 2px solid white;
+    background: dodgerblue;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.finally {
+    height: 15vh;
+    background: #1f2937;
+    color: #f9faf898;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
